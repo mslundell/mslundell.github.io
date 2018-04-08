@@ -6,6 +6,7 @@ body {
     background-color: #f1f1f1;
     padding: 20px;
     font-family: Arial;
+    text-align: left;
 }
 
 /* Center website */
@@ -73,14 +74,12 @@ h4 {
     padding: 10px;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
     .column {
         width: 50%;
     }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
@@ -90,20 +89,20 @@ h4 {
   box-sizing: border-box;
 }
 
-/* Set a background color */
+
 body {
   background-color: #ffffff;
   font-family: Helvetica, sans-serif;
 }
 
-/* The actual timeline (the vertical ruler) */
+
 .timeline {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* The actual timeline (the vertical ruler) */
+
 .timeline::after {
   content: '';
   position: absolute;
@@ -115,7 +114,7 @@ body {
   margin-left: -3px;
 }
 
-/* Container around content */
+
 .container {
   padding: 10px 40px;
   position: relative;
@@ -123,7 +122,6 @@ body {
   width: 50%;
 }
 
-/* The circles on the timeline */
 .container::after {
   content: '';
   position: absolute;
@@ -137,17 +135,17 @@ body {
   z-index: 1;
 }
 
-/* Place the container to the left */
+
 .left {
   left: 0;
 }
 
-/* Place the container to the right */
+
 .right {
   left: 50%;
 }
 
-/* Add arrows to the left container (pointing right) */
+
 .left::before {
   content: " ";
   height: 0;
@@ -161,7 +159,6 @@ body {
   border-color: transparent transparent transparent white;
 }
 
-/* Add arrows to the right container (pointing left) */
 .right::before {
   content: " ";
   height: 0;
@@ -175,7 +172,6 @@ body {
   border-color: transparent white transparent transparent;
 }
 
-/* Fix the circle for containers on the right side */
 .right::after {
   left: -16px;
 }
@@ -229,31 +225,26 @@ body {
     text-decoration: none;
 }
 
-/* Add a hover effect if you want */
 .fa:hover {
     opacity: 0.7;
 }
 
-
-/* Set a specific color for each brand */
-
-/* Facebook */
 .fa-facebook {
     background: #3B5998;
     color: white;
 }
 
-/* Twitter */
+
 .fa-twitter {
     background: #55ACEE;
     color: white;
 }
-/* linkedin */
+
     .fa-linkedin {
         background:#55ACEE;
         color: white;
 }
-/* Style buttons */
+
 .btn {
   background-color: lightGrey;
   border: none;
@@ -264,7 +255,7 @@ body {
   font-size: 20px;
 }
 
-/* Darker background on mouse-over */
+
 .btn:hover {
   background-color: RoyalBlue;
 }
