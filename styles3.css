@@ -162,6 +162,15 @@ h4 {
 }
 
 
+/* Full-width containers */
+  /* .container { */
+    /* width: 100%; */
+
+    /* padding-left: 70px;
+    padding-right: 25px; */
+  /* } */
+
+
 /* Make sure that all arrows are pointing leftwards */
   .container::before {
     left: 60px;
@@ -175,7 +184,12 @@ h4 {
     left: 15px;
   }
 
+/* Make all right containers behave like the left ones */
+  /* .right {
+    left: 0%;
+  } */
 
+/* Style all font awesome icons */
 .fa {
     padding: 20px;
     font-size: 30px;
