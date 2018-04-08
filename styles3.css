@@ -53,6 +53,12 @@ h4 {
   flex-direction: column;
 }
 
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
 .images {
   width: 300px;
   height: auto;
